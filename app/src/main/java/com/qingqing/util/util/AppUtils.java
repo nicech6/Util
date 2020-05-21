@@ -5,7 +5,6 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.PixelFormat;
 import android.graphics.drawable.Drawable;
@@ -33,6 +32,9 @@ public class AppUtils {
                     continue;
                 }
                 if (!packageInfo.packageName.startsWith("com.qingqing")) {
+                    continue;
+                }
+                if (packageInfo.packageName.endsWith("util")) {
                     continue;
                 }
                 AppInfo appInfo = new AppInfo();

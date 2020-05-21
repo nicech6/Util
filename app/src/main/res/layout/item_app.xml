@@ -4,10 +4,10 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <ImageView
+    <com.qingqing.util.wegiht.SquareImageView
         android:id="@+id/iv"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         android:src="@mipmap/ic_launcher_round" />
 
@@ -18,7 +18,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:text="轻轻"
-        android:textColor="@color/tv_33"
+        android:textColor="@color/config_color_text_33"
         android:textSize="@dimen/font_16" />
 
 </LinearLayout>

@@ -10,63 +10,100 @@
     <color name="colorAccent">#FF73A3</color>
     <color name="colorAccentHalfTrans">#80245C50</color>
 
-    <color name="white">#FFFFFF</color>
-    <color name="light_black">#191919</color>
+    <!--页面公用颜色-->
+    <color name="config_color_transparent">#00000000</color>
 
-    <color name="rainbow_red">#bf0c43</color>
-    <color name="rainbow_yellow">#f9ba15</color>
-    <color name="rainbow_green">#8eac00</color>
-    <color name="rainbow_blue">#127a97</color>
-    <color name="rainbow_purple">#452b72</color>
+    <color name="config_color_white">#FFFFFF</color>
+    <color name="config_color_75_white">#C0FFFFFF</color>
+    <color name="config_color_60_white">#99FFFFFF</color>
+    <color name="config_color_40_white">#66FFFFFF</color>
+    <color name="config_color_50_white">#80FFFFFF</color>
+    <color name="config_color_25_white">#40FFFFFF</color>
+    <color name="config_color_15_white">#26FFFFFF</color>
+    <color name="config_color_10_white">#19FFFFFF</color>
 
-    <integer-array name="rainbow">
-        <item>@color/rainbow_red</item>
-        <item>@color/rainbow_yellow</item>
-        <item>@color/rainbow_green</item>
-        <item>@color/rainbow_blue</item>
-        <item>@color/rainbow_purple</item>
-    </integer-array>
+    <color name="config_color_black">#000000</color>
+    <color name="config_color_80_black">#CC000000</color>
+    <color name="config_color_75_black">#C0000000</color>
+    <color name="config_color_60_black">#99000000</color>
+    <color name="config_color_50_black">#80000000</color>
+    <color name="config_color_30_black">#4D000000</color>
+    <color name="config_color_25_black">#40000000</color>
+    <color name="config_color_15_black">#26000000</color>
+    <color name="config_color_10_black">#19000000</color>
 
+    <color name="config_color_gray_1">#353C46</color>
+    <color name="config_color_gray_2">#49505A</color>
+    <color name="config_color_gray_3">#5D646E</color>
+    <color name="config_color_gray_4">#717882</color>
+    <color name="config_color_gray_5">#858C96</color>
+    <color name="config_color_gray_6">#99A0AA</color>
+    <color name="config_color_gray_7">#ADB4BE</color>
+    <color name="config_color_gray_8">#C4C8D0</color>
+    <color name="config_color_gray_9">#D8DCE4</color>
 
-    <!--beautiful color-->
-    <color name="grapefruit">#ED5565</color>
-    <color name="grapefruitDark">#DA4453</color>
+    <color name="config_color_text_2b">#2B2B2B</color>
+    <color name="config_color_text_80">#808080</color>
+    <color name="config_color_text_28">#282828</color>
+    <color name="config_color_text_30">#303030</color>
+    <color name="config_color_text_32">#323232</color>
+    <color name="config_color_text_23">#232323</color>
+    <color name="config_color_text_33">#333333</color>
+    <color name="config_color_text_55">#555555</color>
+    <color name="config_color_text_66">#666666</color>
+    <color name="config_color_text_99">#999999</color>
+    <color name="config_color_text_dd">#DDDDDD</color>
+    <color name="config_color_text_e7">#E7E8E9</color>
+    <color name="config_color_text_blue">#367CDD</color>
+    <color name="config_color_text_blue_5B98EB">#5B98EB</color>
+    <color name="config_color_text_blue_20_5B98EB">#205B98EB</color>
+    <color name="config_color_text_blue_50">#80367CDD</color>
+    <color name="config_color_text_50_blue">#80367CDD</color>
+    <color name="config_color_text_003D75">#003D75</color>
+    <color name="config_color_text_smoke">#00AEF7</color>
+    <color name="config_color_text_cccccc">#CCCCCC</color>
+    <color name="config_color_text_red">#ff3b30</color>
+    <color name="config_color_text_247fd3">#247FD3</color>
+    <color name="config_color_text_price">#DFB056</color>
 
-    <color name="bittersweet">#FC6E51</color>
-    <color name="bittersweetDark">#E9573F</color>
+    <color name="config_color_text_orange">#FE644A</color>
+    <color name="config_color_text_orange_f0">#F09A37</color>
+    <color name="config_color_text_1b3ec0">#1B3EC0</color>
+    <color name="config_color_text_50_f1f7ff">#80F1F7FF</color>
+    <color name="config_color_text_f1f7ff">#F1F7FF</color>
 
-    <color name="sunflower">#FFCE54</color>
-    <color name="sunflowerDark">#F6BB42</color>
+    <color name="config_color_bg_f4">#F4F4F4</color>
+    <color name="config_color_bg_f5">#F5F5F5</color>
+    <color name="config_color_bg_f6">#F6F6F6</color>
+    <color name="config_color_bg_f7">#F7F7F7</color>
+    <color name="config_color_bg_ec">#ECECEC</color>
+    <color name="config_color_bg_ef">#EFEFEF</color>
+    <color name="config_color_bg_blue">#3688FF</color>
+    <color name="config_color_bg_25_blue">#403688FF</color>
+    <color name="config_color_bg_50_blue">#803688FF</color>
+    <color name="config_color_bg_smoke">#00AEF7</color>
+    <color name="config_color_bg_50_smoke">#8000AEF7</color>
+    <color name="config_color_bg_f4bf21">#F4BF21</color>
+    <color name="config_color_bg_6cd9a2">#6CD9A2</color>
+    <color name="config_color_bg_30_33">#B3333333</color>
+    <color name="config_color_bg_dc">#DCDCDC</color>
 
-    <color name="grass">#A0D468</color>
-    <color name="grassDark">#8CC152</color>
+    <color name="config_color_line_e6">#E6E6E6</color>
+    <color name="config_color_line_f6">#F6F7FB</color>
+    <color name="config_color_line_d8">#D8D8D8</color>
+    <color name="config_color_line_E7E8E9">#E7E8E9</color>
 
-    <color name="mint">#48CFAD</color>
-    <color name="mintDark">#37BC9B</color>
+    <color name="theme_color_navigation_profilecover">#99f0486c</color>
+    <color name="theme_color_pink">#fffb7299</color>
+    <color name="theme_color_primary">#fffb7299</color>
+    <color name="theme_color_primary_dark">#ffb85671</color>
+    <color name="theme_color_primary_light">#ffb87891</color>
+    <color name="theme_color_primary_trans">#99f0486c</color>
+    <color name="theme_color_secondary">#fffb7299</color>
+    <color name="theme_color_secondary_dark">#ffb85671</color>
+    <color name="theme_color_text_highlight">#99f0486c</color>
 
-    <color name="loveGreen">#62C554</color>
-    <color name="loveGreenDark">#479841</color>
+    <color name="orange_FF9C1D">#FF9C1D</color>
+    <color name="accent_orange">#FF7700</color>
 
-    <color name="aqua">#4FC1E9</color>
-    <color name="aquaDark">#3BAFDA</color>
-
-    <color name="blueJeans">#5D9CEC</color>
-    <color name="blueJeansDark">#4A89DC</color>
-
-    <color name="lavander">#AC92EC</color>
-    <color name="lavanderDark">#967ADC</color>
-
-    <color name="pinkRose">#EC87C0</color>
-    <color name="pinkRoseDark">#D770AD</color>
-
-    <color name="lightGray">#F5F7FA</color>
-    <color name="lightGrayDark">#E6E9ED</color>
-
-    <color name="mediumGray">#CCD1D9</color>
-    <color name="mediumGrayDark">#AAB2BD</color>
-
-    <color name="darkGray">#656D78</color>
-    <color name="darkGrayDark">#434A54</color>
-
-    <color name="tv_33">#333333</color>
 </resources>

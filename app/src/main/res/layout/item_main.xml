@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="50dp"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/white"
+    android:background="@color/config_color_white"
     android:paddingLeft="@dimen/spacing_16"
     android:paddingRight="@dimen/spacing_16">
 

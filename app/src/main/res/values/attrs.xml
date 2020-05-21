@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CommonTitleView">
+        <attr name="title_left_size" format="dimension" />
+        <attr name="title_center_size" format="dimension" />
+        <attr name="title_right_size" format="dimension" />
+
+        <attr name="title_left_color" format="color" />
+        <attr name="title_center_color" format="color" />
+        <attr name="title_right_color" format="color" />
+
+        <attr name="title_left_str" format="string" />
+        <attr name="title_center_str" format="string" />
+        <attr name="title_right_str" format="string" />
+
+        <attr name="title_left_drawable" format="reference" />
+        <attr name="title_center_drawable" format="reference" />
+        <attr name="title_right_drawable" format="reference" />
+
+        <attr name="title_background_color" format="color" />
+
+    </declare-styleable>
+</resources>
